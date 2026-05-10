@@ -1,9 +1,77 @@
-#profile-title: SnezkaVPN ❄
-#profile-update-interval: 7
-#announce: ❄ SnezkaVPN — ваш надёжный снежный VPN ❄
+#profile-title: ☃️ SnezkaVPN ❄️
+#profile-web-page: https://github.com/ВАШ-ЛОГИН/snezkavpn
+#profile-update-interval: 3
+#profile-download-interval: 3
+#support-url: https://t.me/snezkavpn
 
-vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇩🇪 Auto - Germany
+#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1790951622
+#announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+❄️ ДОБРО ПОЖАЛОВАТЬ В SNEZKA VPN ❄️
 
-vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇫🇷 Auto - France
+✨ Бесплатные серверы с лучшими соединениями
+🔄 Автообновление каждые 3 дня
+🌍 15+ серверов по всему миру
+⚡ Оптимальные маршруты для России
 
-vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇳🇱 Auto - Netherlands
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+
+# 🌟 ЕВРОПЕЙСКИЕ СЕРВЕРЫ
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#⭐ 🇩🇪 Germany - Frankfurt [1]
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.microsoft.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#⭐ 🇩🇪 Germany - Falkenstein [2]
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#💙 🇫🇷 France - Paris [1]
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.ovh.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#💙 🇫🇷 France - Strasbourg [2]
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🧡 🇳🇱 Netherlands - Amsterdam [1]
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.bunny.net&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🧡 🇳🇱 Netherlands - Volgermeer [2]
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.shopify.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇬🇧 United Kingdom - London
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.bbc.co.uk&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇮🇪 Ireland - Dublin
+
+# 🌎 АМЕРИКАНСКИЕ СЕРВЕРЫ
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇺🇸 USA - New York
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇺🇸 USA - Los Angeles
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇨🇦 Canada - Toronto
+
+# 🌏 АЗИАТСКИЕ СЕРВЕРЫ
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇸🇬 Singapore - Downtown
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇯🇵 Japan - Tokyo
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇰🇷 South Korea - Seoul
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇮🇳 India - Mumbai
+
+# 🌏 РОССИЯ И СНГ
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇷🇺 Russia - Moscow
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇰🇿 Kazakhstan - Astana
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇦🇲 Armenia - Yerevan
+
+# ✨ ПРЕМИУМ-МАРШРУТЫ
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.netflix.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🎬 Netflix - Streaming
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.youtube.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#📺 YouTube - 4K Ready
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=openai.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🤖 ChatGPT - AI Access
+
+# ⚡ ОПТИМАЛЬНЫЕ (РЕКОМЕНДУЕМЫЕ)
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🏆 BEST - Germany Low Ping
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🏆 BEST - Netherlands Stable
+
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+#announce: 📡 © 2026 SnezkaVPN | Сделано с ❄️ для свободы в интернете
