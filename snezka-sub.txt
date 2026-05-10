@@ -1,1 +1,9 @@
+#profile-title: SnezkaVPN ❄
+#profile-update-interval: 7
+#announce: ❄ SnezkaVPN — ваш надёжный снежный VPN ❄
 
+vless://00000000-0000-0000-0000-000000000000@142.250.185.46:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇩🇪 Auto - Germany
+
+vless://00000000-0000-0000-0000-000000000000@142.250.184.238:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇫🇷 Auto - France
+
+vless://00000000-0000-0000-0000-000000000000@142.250.185.110:443?encryption=none&security=reality&sni=www.google.com&fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=SzD7iTZx4W6sM6xQk8L3nR9pY2cV5bN7mJ9kL1qW4eR8#🇳🇱 Auto - Netherlands
