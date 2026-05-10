@@ -1,6 +1,6 @@
 #profile-title: ❄ SnezkaVPN | Lite 25GB
 #profile-web-page: https://github.com/ahbibru/snezkavpn
-#profile-update-interval: 3
+#profile-update-interval: 1
 #profile-download-interval: 1
 #support-url: 
 
