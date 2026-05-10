@@ -4,7 +4,7 @@
 #profile-download-interval: 1
 #support-url: 
 
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1748131200
+#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1779753600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 ❄️ SNEZKA VPN | LITE EDITION ❄️
@@ -18,9 +18,9 @@
 
 # 🇵🇱 ПОЛЬША
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 ⚡ Poland
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 ⚡ Poland - Warsaw
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 📊 Трафик: 100 ГБ | Действует до 25.05.2026
-🔗 Оригинал: FatVPN
+🔗 Оригинал: FatVPN (gRPC)
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
