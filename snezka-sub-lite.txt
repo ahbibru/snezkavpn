@@ -1,26 +1,26 @@
-#profile-title: ❄ SnezkaVPN | Lite 25GB
+#profile-title: ❄ SnezkaVPN | Трафик закончен
 #profile-web-page: https://github.com/ahbibru/snezkavpn
-#profile-update-interval: 3
+#profile-update-interval: 7
 #profile-download-interval: 1
 #support-url: 
 
-#subscription-userinfo: upload=0; download=52428800; total=26843545600; expire=1779753600
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN | LITE 25GB ❄️
+🔋 SNEZKA VPN | ПОДПИСКА ЗАКОНЧЕНА 🔋
 
-✅ Выделенный сервер в Польше
-✅ Лимит: 25 ГБ (до 25.05.2026)
-✅ Протокол: VLESS + gRPC
-✅ Поддержка: Happ, Hiddify, Shadowrocket
+❌ Лимит трафика исчерпан
+❌ Доступ к серверам заблокирован
+❌ Подписка неактивна
 
+👉 Для продления обратитесь к администратору
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🇵🇱 ПОЛЬША
+# 🪫 СЕРВЕР НЕ РАБОТАЕТ
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 ⚡ Poland
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none&type=grpc#🪫 Трафик закончен - подключение невозможно
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 Трафик: 0/25 ГБ | Действует до 25.05.2026
-🔗 Оригинал: FatVPN
+📡 Статус: НЕАКТИВНА
+📅 Актуально до: ———
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
