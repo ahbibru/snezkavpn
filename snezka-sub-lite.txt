@@ -18,9 +18,9 @@
 
 # 🇵🇱 ПОЛЬША
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 ⚡ Poland - Warsaw
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 ⚡ Poland
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 📊 Трафик: 100 ГБ | Действует до 25.05.2026
-🔗 Оригинал: FatVPN (gRPC)
+🔗 Оригинал: FatVPN
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
