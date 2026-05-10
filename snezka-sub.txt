@@ -24,11 +24,10 @@ vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&ty
 
 # 🇷🇺 РОССИЯ
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@158.160.166.176:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇷🇺 🔥 Russia - Moscow (Безопасный)
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@158.160.166.176:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇷🇺 🔥 Russia - Moscow
 
 # ⚠️ VIP-сервера (безлимит)
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ТРАФИК: 100 ГБ | ДО 01.06.2026
-📡 ОРИГИНАЛ: FatVPN (gRPC)
+
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
