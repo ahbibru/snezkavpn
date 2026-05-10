@@ -4,7 +4,7 @@
 #profile-download-interval: 1
 #support-url: 
 
-#subscription-userinfo: upload=0; download=0; total=26843545600; expire=1779753600
+#subscription-userinfo: upload=0; download=52428800; total=26843545600; expire=1779753600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 ❄️ SNEZKA VPN | LITE 25GB ❄️
