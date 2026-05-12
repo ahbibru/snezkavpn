@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>SnezkaVPN ❄️ | Премиум обход блокировок</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #0a0f1a;
+            color: #eef5ff;
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        /* анимации */
+        @keyframes glowPulse {
+            0% { box-shadow: 0 0 5px rgba(100, 180, 255, 0.3); }
+            100% { box-shadow: 0 0 25px rgba(100, 180, 255, 0.6); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-10px); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate {
+            animation: fadeInUp 0.7s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
+            opacity: 0;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.35s; }
+
+        /* градиентные элементы */
+        .gradient-text {
+            background: linear-gradient(125deg, #a3c6ff, #3a8cff, #6c5ce7);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: shine 3s linear infinite;
+        }
+
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+
+        /* хедер */
+        .glass-nav {
+            background: rgba(15, 25, 45, 0.7);
+            backdrop-filter: blur(16px);
+            border-radius: 80px;
+            padding: 0.8rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 4rem;
+            border: 1px solid rgba(72, 140, 220, 0.3);
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .logo i {
+            color: #3a8cff;
+            margin-right: 8px;
+        }
+
+        .free-chip {
+            background: rgba(58, 140, 255, 0.15);
+            padding: 0.5rem 1.4rem;
+            border-radius: 60px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid rgba(58, 140, 255, 0.4);
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .hero h1 {
+            font-size: 3.4rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #a0b5d0;
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        /* карточки */
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0 4rem;
+        }
+
+        .plan-card {
+            background: linear-gradient(145deg, #101a28, #0c1420);
+            border-radius: 2rem;
+            padding: 1.8rem 1.5rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(72, 140, 220, 0.25);
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            opacity: 0;
+            animation: fadeInUp 0.6s forwards;
+        }
+
+        .plan-card:hover {
+            transform: translateY(-6px);
+            border-color: #3a8cff;
+            box-shadow: 0 25px 40px -12px #0a1a2e;
+        }
+
+        .plan-name {
+            font-size: 1.8rem;
+            font-weight: 800;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 1rem 0 0.5rem;
+            color: white;
+        }
+
+        .price small {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: #8da2c0;
+        }
+
+        .features {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .features li {
+            margin-bottom: 0.7rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+
+        .features i {
+            color: #3a8cff;
+            width: 20px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 0.85rem 0;
+            border-radius: 60px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: rgba(58, 140, 255, 0.1);
+            color: #c3deff;
+        }
+
+        .btn-primary {
+            background: linear-gradient(95deg, #2b6ef0, #3a5be0);
+            color: white;
+            box-shadow: 0 4px 12px rgba(43, 110, 240, 0.3);
+        }
+
+        .btn-primary:hover {
+            filter: brightness(1.05);
+            transform: scale(0.98);
+        }
+
+        .btn-free {
+            background: rgba(72, 187, 120, 0.15);
+            border: 1px solid #2ecc71;
+            color: #b0f0c0;
+        }
+
+        /* корзина */
+        .cart-fixed {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            background: #111c2c;
+            backdrop-filter: blur(12px);
+            padding: 0.9rem 1.8rem;
+            border-radius: 60px;
+            display: flex;
+            gap: 1rem;
+            font-weight: 700;
+            z-index: 100;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            border: 1px solid #2b4880;
+        }
+
+        /* модалка заявки */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-card {
+            background: #0f1725;
+            border-radius: 2rem;
+            padding: 2rem;
+            max-width: 480px;
+            width: 90%;
+            border: 1px solid #2e4a7a;
+            box-shadow: 0 25px 40px black;
+        }
+
+        .modal-card input, .modal-card textarea {
+            width: 100%;
+            background: #1a2538;
+            border: 1px solid #2f4160;
+            padding: 0.8rem;
+            border-radius: 1rem;
+            margin: 1rem 0;
+            color: white;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 6rem;
+            right: 2rem;
+            background: #1e5f3c;
+            color: white;
+            padding: 0.7rem 1.4rem;
+            border-radius: 50px;
+            opacity: 0;
+            transition: 0.2s;
+            z-index: 102;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            color: #5b7398;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" style="max-width: 1300px; margin: 0 auto; padding: 1.5rem;">
+    <div class="glass-nav animate">
+        <div class="logo"><i class="fas fa-snowflake"></i> SnezkaVPN</div>
+        <div class="free-chip"><i class="fas fa-gem"></i> Премиум обход · Без логов</div>
+    </div>
+
+    <div class="hero animate delay-1">
+        <h1><span class="gradient-text">SnezkaVPN</span> — твоя свобода</h1>
+        <p>Выделенные серверы в Европе и США. Мгновенный обход блокировок. Выбери свой план.</p>
+    </div>
+
+    <div class="plans-grid" id="plansGrid"></div>
+    <footer>
+        <i class="fas fa-shield-alt"></i> Работает через приложение Happ. Все подписки с автоматическим обновлением.<br>
+        Бесплатный тестовый доступ — всегда с тобой.
+    </footer>
+</div>
+
+<div class="cart-fixed" id="cartBtn">
+    <i class="fas fa-shopping-bag"></i> Корзина <span id="cartBadge">0</span>
+</div>
+<div class="toast" id="toastMsg">✓ Добавлено в корзину</div>
+
+<div id="orderModal" class="modal">
+    <div class="modal-card">
+        <h2 style="margin-bottom: 0.5rem;">📝 Оформление заявки</h2>
+        <p style="margin-bottom: 1rem; font-size: 0.9rem;">Укажите контактные данные — администратор свяжется с вами.</p>
+        <input type="text" id="userName" placeholder="Ваше имя или никнейм">
+        <input type="email" id="userEmail" placeholder="Telegram / Email для связи">
+        <textarea id="userComment" rows="2" placeholder="Дополнительно (какие подписки хотите)"></textarea>
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;">
+            <button id="closeModalBtn" style="background: #232e42; color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 2rem;">Отмена</button>
+            <button id="submitOrderBtn" style="background:#2b6ef0; border: none; padding: 0.6rem 1.4rem; border-radius: 2rem; font-weight: bold;">Отправить заявку</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const plans = [
+        { name: "Free", price: 0, traffic: "5 ГБ", servers: "🇨🇿 Чехия + 🇱🇻 Латвия", features: ["Для теста и знакомства", "Автообновление 12ч", "Подходит для проверки"], link: "https://ahbibru.github.io/snezkavpn/snezka-sub-free1.txt", isFree: true },
+        { name: "Lite", price: 79, traffic: "20 ГБ", servers: "🇵🇱 Польша Fast + gRPC", features: ["2 стабильных сервера", "Оптимально для соцсетей"], isFree: false },
+        { name: "Pro", price: 159, traffic: "40 ГБ", servers: "🇵🇱 🇳🇱 + EU Auto", features: ["4 сервера", "Для видеозвонков и игр"], isFree: false },
+        { name: "Premium", price: 279, traffic: "80 ГБ", servers: "🇩🇪 Германия + NL gRPC", features: ["6 серверов", "gRPC — максимальная скорость"], isFree: false },
+        { name: "Platina", price: 399, traffic: "150 ГБ", servers: "🇫🇮 🇷🇺 🇺🇸", features: ["9 серверов", "Обход глушилок"], isFree: false },
+        { name: "Emerald", price: 599, traffic: "350 ГБ", servers: "Все 11 серверов", features: ["Полный набор", "Гик-режим"], isFree: false },
+        { name: "Diamond", price: 799, traffic: "800 ГБ", servers: "11 серверов + VIP", features: ["Максимум трафика", "Премиум поддержка"], isFree: false }
+    ];
+
+    let cart = [];
+
+    function render() {
+        const grid = document.getElementById('plansGrid');
+        grid.innerHTML = '';
+        plans.forEach((plan, idx) => {
+            const card = document.createElement('div');
+            card.className = 'plan-card animate';
+            card.style.animationDelay = `${0.1 + idx * 0.05}s`;
+            card.innerHTML = `
+                <div class="plan-name">
+                    ${plan.name}
+                    <span style="font-size: 0.8rem; background: #1e2a3a; padding: 0.2rem 0.7rem; border-radius: 50px;">${plan.traffic}</span>
+                </div>
+                <div class="price">${plan.price === 0 ? '0 ₽' : plan.price + ' ₽'}<small> /мес</small></div>
+                <ul class="features">
+                    ${plan.features.map(f => `<li><i class="fas fa-bolt"></i> ${f}</li>`).join('')}
+                    <li><i class="fas fa-server"></i> ${plan.servers}</li>
+                </ul>
+            `;
+            const btn = document.createElement('button');
+            if(plan.isFree) {
+                btn.className = 'btn btn-free';
+                btn.innerHTML = '<i class="fas fa-download"></i> Получить подписку';
+                btn.onclick = () => window.open(plan.link, '_blank');
+            } else {
+                btn.className = 'btn btn-primary';
+                btn.innerHTML = '<i class="fas fa-cart-plus"></i> В корзину';
+                btn.onclick = () => addToCart(plan.name, plan.price);
+            }
+            card.appendChild(btn);
+            grid.appendChild(card);
+        });
+    }
+
+    function addToCart(name, price) {
+        cart.push({ name, price });
+        updateCartUI();
+        showToast();
+    }
+
+    function updateCartUI() {
+        document.getElementById('cartBadge').innerText = cart.length;
+    }
+
+    function showToast() {
+        const toast = document.getElementById('toastMsg');
+        toast.style.opacity = '1';
+        setTimeout(() => toast.style.opacity = '0', 1800);
+    }
+
+    const modal = document.getElementById('orderModal');
+    const cartBtn = document.getElementById('cartBtn');
+
+    cartBtn.addEventListener('click', () => {
+        if(cart.length === 0) {
+            alert('Корзина пуста. Добавьте платную подписку :)');
+            return;
+        }
+        modal.style.display = 'flex';
+    });
+
+    document.getElementById('closeModalBtn').addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    document.getElementById('submitOrderBtn').addEventListener('click', () => {
+        const name = document.getElementById('userName').value.trim();
+        const email = document.getElementById('userEmail').value.trim();
+        if(!name || !email) {
+            alert('Заполните имя и контакт (Telegram/email)');
+            return;
+        }
+        let totalSum = cart.reduce((s,item) => s+item.price,0);
+        let itemsList = cart.map(i => `${i.name} — ${i.price}₽`).join('\n');
+        const message = `Имя: ${name}\nКонтакты: ${email}\nКомментарий: ${document.getElementById('userComment').value}\n\nВыбрано:\n${itemsList}\nИтого: ${totalSum}₽`;
+
+        // демо-режим: имитация отправки
+        alert('✅ Заявка отправлена! Администратор свяжется с вами в ближайшее время.');
+        console.log('Заявка:', message);
+        // очистить корзину и закрыть
+        cart = [];
+        updateCartUI();
+        modal.style.display = 'none';
+        document.getElementById('userName').value = '';
+        document.getElementById('userEmail').value = '';
+        document.getElementById('userComment').value = '';
+    });
+
+    render();
+</script>
+</body>
+</html>
