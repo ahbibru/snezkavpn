@@ -1,15 +1,15 @@
-#profile-title: ❄ SnezkaVPN | Friend ∞ (1000 TB)
+#profile-title: ❄ SnezkaVPN | Friend ∞ (5 PB)
 #profile-web-page: https://github.com/ahbibru/snezkavpn
 #profile-update-interval: 6
 #profile-download-interval: 1
 #support-url: https://t.me/snezkavpn_bot
 
-#subscription-userinfo: upload=0; download=37730000000; total=1099511627776000; expire=1779753600
+#subscription-userinfo: upload=0; download=37730000000; total=5497558138880000; expire=1779753600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 👥 SNEZKA VPN | FRIEND EDITION ∞ 👥
 
-✅ Лимит: 1000 ТБ (практически бесконечно)
+✅ Лимит: 5 ПБ (практически бесконечно)
 ✅ Потрачено: 35.14 ГБ / ∞
 ✅ 8 серверов для настоящих друзей
 
@@ -46,7 +46,7 @@ vless://846a6675-ae22-46c3-a093-6dae3a20dcce@213.159.68.48:8443?security=none&ty
 vless://846a6675-ae22-46c3-a093-6dae3a20dcce@45.120.178.13:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ПОТРАЧЕНО: 35.14 ГБ / ∞ (1000 ТБ)
+📊 ПОТРАЧЕНО: 35.14 ГБ / ∞ (5 ПБ)
 📅 Действует до: 25.05.2026
 
 ✨ ПРИ ПОДДЕРЖКЕ ✨
