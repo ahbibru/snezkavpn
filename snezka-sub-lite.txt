@@ -1,26 +1,30 @@
-#profile-title: ❄ SnezkaVPN | Lite 25GB
+#profile-title: ❄ SnezkaVPN | Friend 100GB
 #profile-web-page: https://github.com/ahbibru/snezkavpn
-#profile-update-interval: 3
+#profile-update-interval: 6
 #profile-download-interval: 1
 #support-url: 
 
-#subscription-userinfo: upload=0; download=21485000000; total=107374182400; expire=1779753600
+#subscription-userinfo: upload=0; download=28980000000; total=107374182400; expire=1779753600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN | LITE 25GB ❄️
+👥 SNEZKA VPN | FRIEND EDITION 👥
 
-✅ Выделенный сервер в Польше
-✅ Лимит: 25 ГБ (до 25.05.2026)
-✅ Протокол: VLESS + gRPC
-✅ Поддержка: Happ, Hiddify, Shadowrocket
+✅ 100 ГБ трафика
+✅ 4 сервера: Польша (Fast + gRPC), Финляндия, Нидерланды
+✅ Потрачено: 26.98 ГБ / 100 ГБ
+✅ Для активного общения и контента
 
-●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🇵🇱 ПОЛЬША
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 Poland - Fast
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.43:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇵🇱 ⚡ Poland
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.73:8443?security=none&type=grpc&serviceName=grpc#🇵🇱 Poland - gRPC
+
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@213.159.68.48:8443?security=none&type=grpc&serviceName=cv-1#🇫🇮 Finland - gRPC
+
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@45.120.178.13:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 Трафик: 0/25 ГБ | Действует до 25.05.2026
-🔗 Оригинал: FatVPN
-●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+📊 Осталось: 73.02 ГБ из 100 ГБ
+📅 Действует до: 25.05.2026
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
