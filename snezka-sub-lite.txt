@@ -1,15 +1,15 @@
-#profile-title: ❄ SnezkaVPN | Friend ∞ (256 TB)
+#profile-title: ❄ SnezkaVPN | Friend ∞ (1000 TB)
 #profile-web-page: https://github.com/ahbibru/snezkavpn
 #profile-update-interval: 6
 #profile-download-interval: 1
 #support-url: https://t.me/snezkavpn_bot
 
-#subscription-userinfo: upload=0; download=37730000000; total=281474976710656; expire=1779753600
+#subscription-userinfo: upload=0; download=37730000000; total=1099511627776000; expire=1779753600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 👥 SNEZKA VPN | FRIEND EDITION ∞ 👥
 
-✅ Лимит: 256 ТБ (практически бесконечно)
+✅ Лимит: 1000 ТБ (практически бесконечно)
 ✅ Потрачено: 35.14 ГБ / ∞
 ✅ 8 серверов для настоящих друзей
 
@@ -17,7 +17,19 @@
 
 # 🇪🇺 АВТО (ЕВРОСОЮЗ) — РЕКОМЕНДУЕМ
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@web.max.ru:443?security=reality&type=tcp&sni=yahoo.com&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇪🇺 EU Auto [Fast]
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@web.max.ru:443?security=reality&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=yahoo.com&fp=&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇪🇺 EU Auto [Fast]
+
+# 🇷🇺 ОБХОД ГЛУШИЛОК (РОССИЯ)
+
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@158.160.166.176:8443?security=none&type=grpc#🇷🇺 Russia - Bypass
+
+# 🇺🇸 США
+
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@94.131.101.156:443?security=reality&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=yahoo.com&fp=&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇺🇸 USA - TCP
+
+# 🇳🇱 НИДЕРЛАНДЫ (TCP)
+
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@93.185.166.130:443?security=reality&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=yahoo.com&fp=&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇳🇱 Netherlands - TCP
 
 # 🇵🇱 ПОЛЬША
 
@@ -29,22 +41,12 @@ vless://846a6675-ae22-46c3-a093-6dae3a20dcce@87.239.135.73:8443?security=none&ty
 
 vless://846a6675-ae22-46c3-a093-6dae3a20dcce@213.159.68.48:8443?security=none&type=grpc&serviceName=cv-1#🇫🇮 Finland - gRPC
 
-# 🇳🇱 НИДЕРЛАНДЫ
+# 🇳🇱 НИДЕРЛАНДЫ (gRPC)
 
 vless://846a6675-ae22-46c3-a093-6dae3a20dcce@45.120.178.13:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@93.185.166.130:443?security=reality&type=tcp&sni=yahoo.com&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇳🇱 Netherlands - TCP
-
-# 🇷🇺 ОБХОД ГЛУШИЛОК
-
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@158.160.166.176:8443?security=none&type=grpc#🇷🇺 Russia - Bypass
-
-# 🇺🇸 США
-
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@94.131.101.156:443?security=reality&type=tcp&sni=yahoo.com&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇺🇸 USA - TCP
-
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ПОТРАЧЕНО: 35.14 ГБ / ∞ (256 ТБ)
+📊 ПОТРАЧЕНО: 35.14 ГБ / ∞ (1000 ТБ)
 📅 Действует до: 25.05.2026
 
 ✨ ПРИ ПОДДЕРЖКЕ ✨
