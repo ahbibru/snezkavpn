@@ -21,7 +21,7 @@ vless://846a6675-ae22-46c3-a093-6dae3a20dcce@web.max.ru:443?security=reality&typ
 
 # 🇷🇺 ОБХОД ГЛУШИЛОК (РОССИЯ)
 
-vless://846a6675-ae22-46c3-a093-6dae3a20dcce@158.160.166.176:8443?security=none&type=grpc#🇷🇺 Russia - Bypass
+vless://846a6675-ae22-46c3-a093-6dae3a20dcce@158.160.166.176:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇷🇺 Russia - Bypass
 
 # 🇺🇸 США
 
