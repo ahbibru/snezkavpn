@@ -13,12 +13,6 @@
 ✅ Потрачено: 100 ГБ / ∞
 ✅ 7 серверов для настоящих друзей
 
-●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-
-# 🇪🇺 АВТО
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@web.max.ru:443?security=reality&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=yahoo.com&fp=&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇪🇺 EU Auto [Fast]
-
 # 🇷🇺 ОБХОД ГЛУШИЛОК
 
 vless://0ead8464-982b-4850-ae7e-5711b2c871a4@158.160.166.176:8443?security=none&type=grpc&headerType=&authority=&serviceName=grpc&flow=&mode=gun#🇷🇺 Russia - Bypass
