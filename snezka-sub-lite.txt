@@ -4,7 +4,7 @@
 #profile-download-interval: 1
 #support-url: https://t.me/snezkavpn_bot
 
-#subscription-userinfo: upload=0; download=107374182400; total=5497558138880000; expire=1779753600
+#subscription-userinfo: upload=0; download=243710000000; total=5497558138880000; expire=2095131600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 👥 SNEZKA FRIEND | БЕЗЛИМИТ 5 ПБ 👥
