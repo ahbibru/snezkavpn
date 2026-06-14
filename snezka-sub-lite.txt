@@ -1,50 +1,41 @@
-#profile-title: ❄ SNEZKA VPN | Full Collection
+#profile-title: ❄ SNEZKA VPN | Fresh Collection
 #profile-web-page: https://github.com/ahbibru/snezkavpn
 #profile-update-interval: 12
 #profile-download-interval: 1
 #support-url: https://t.me/snezkavpn_bot
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN | FULL COLLECTION ❄️
+❄️ SNEZKA VPN | FRESH COLLECTION ❄️
 
-✅ 11 серверов по всему миру
-✅ Россия, Европа, Азия, США
-✅ Протоколы: VLESS + gRPC / Reality + TCP
+✅ 10 VLESS + gRPC серверов
+✅ 2 Hysteria2 сервера
+✅ Только свежие IP из последних конфигов
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🇷🇺 РОССИЯ
+# 🇪🇺 ЕВРОПА (VLESS + gRPC)
 
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@158.160.166.176:8443?security=none&type=grpc&serviceName=grpc&mode=gun#🇷🇺 Russia - Bypass
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@31.77.157.229:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany - gRPC
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey - gRPC
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland - gRPC
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@45.130.254.49:8443?security=none&type=grpc&serviceName=grpc#🇦🇲 Armenia - gRPC
 
-# 🇪🇺 ЕВРОПА
+# 🌍 ДРУГИЕ СТРАНЫ
 
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@87.239.135.43:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇵🇱 Poland - Fast
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@31.77.157.229:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC (Alt)
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany - gRPC (Alt)
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC (Alt)
+vless://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey - gRPC (Alt)
 
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@87.239.135.73:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇵🇱 Poland - gRPC
+# 🚀 HYSTERIA2 (UDP-based, для плохих сетей)
 
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@149.33.33.47:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇩🇪 Germany - gRPC
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@87.121.221.178:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇳🇱 Netherlands - gRPC
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@95.85.248.29:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&pbk=Ei605h8bQzq1clZr4QCkPVzBeyZVTpMWCQMk6kZSCk8&sid=f1#🇳🇱 Netherlands - TCP (Reality)
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@94.131.97.154:8443?security=none&type=grpc&serviceName=grpc&mode=gun#🇨🇿 Czech Republic
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@94.131.119.73:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇷🇴 Romania
-
-# 🌍 АЗИЯ И БЛИЖНИЙ ВОСТОК
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@194.62.42.99:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇮🇱 Israel
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@38.244.206.28:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇰🇿 Kazakhstan
-
-# 🌎 АМЕРИКА
-
-vless://0ead8464-982b-4850-ae7e-5711b2c871a4@37.1.210.175:8443?security=none&type=grpc&serviceName=grpcf&mode=gun#🇺🇸 USA
+hysteria://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@h2-fr.arpozan.cloud:443?insecure=1&upmb=100&downmb=50&obfs=salamander&obfs-password=#🇫🇷 France - Hysteria2
+hysteria://7d1502db-aefb-4ba8-892a-f5b4c45ca84c@h1-fi.arpozan.cloud:443?insecure=1&upmb=100&downmb=50&obfs=salamander&obfs-password=#🇫🇮 Finland - Hysteria2
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 11
+📊 ВСЕГО СЕРВЕРОВ: 12
 📅 АКТУАЛЬНО ДО: 25.05.2036
 
 ✨ ПРИ ПОДДЕРЖКЕ ✨
