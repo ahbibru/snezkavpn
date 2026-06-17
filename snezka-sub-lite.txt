@@ -10,12 +10,12 @@
 ❄️ SNEZKA VPN | FRESH COLLECTION ❄️
 
 ✅ 6 VLESS + gRPC серверов
+✅ 1 Hysteria2 сервер (UDP, голос, сложные сети)
 ✅ Только совместимые с Happ протоколы
-✅ Новый UUID: 7e8f7489-e65f-4be6-93ed-867a74ec6759
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🇪🇺 ЕВРОПА
+# 🇪🇺 ЕВРОПА (VLESS + gRPC)
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@31.77.157.229:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany
@@ -24,7 +24,115 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&t
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@45.130.254.49:8443?security=none&type=grpc&serviceName=grpc#🇦🇲 Armenia
 
+# 🚀 HYSTERIA2 (UDP, ДЛЯ ЗВОНКОВ И ПЛОХОГО ИНТЕРНЕТА)
+{
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "hysteria",
+      "settings": {
+        "address": "h2-fr.arpozan.cloud",
+        "port": 443,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "7e8f7489-e65f-4be6-93ed-867a74ec6759"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "h2-fr.arpozan.cloud",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "finalmask": {
+          "quicParams": {
+            "debug": false,
+            "congestion": "bbr",
+            "maxConnReceiveWindow": 20971520,
+            "initConnReceiveWindow": 20971520,
+            "maxStreamReceiveWindow": 8388608,
+            "initStreamReceiveWindow": 8388608
+          }
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇫🇷 France - Hysteria2"
+}
+
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 6
+📊 ВСЕГО СЕРВЕРОВ: 7
 📅 АКТУАЛЬНО ДО: 25.05.2036
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
