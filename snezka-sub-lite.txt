@@ -1,19 +1,27 @@
-#profile-title: ❄ SNEZKA VPN | Fresh Collection
+#profile-title: ❄ SNEZKA VPN | Fresh Cool
 #profile-web-page: https://github.com/ahbibru/snezkavpn
-#profile-update-interval: 12
+#profile-update-interval: 6
 #profile-download-interval: 1
 #support-url: https://t.me/snezkavpn_bot
 
-#subscription-userinfo: upload=0; download=0; total=5497558138880; expire=1779753600
+#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1779753600
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN | FRESH COLLECTION ❄️
+❄️ SNEZKA VPN | FRESH COOL ❄️
 
-✅ 6 VLESS + gRPC серверов
-✅ 1 Hysteria2 сервер (UDP, голос, сложные сети)
-✅ Только совместимые с Happ протоколы
+✅ 9 серверов (VLESS + gRPC / XHTTP / Reality)
+✅ Новые: Норвегия, Испания (gRPC + TLS), Испания (XHTTP + Reality)
+✅ Автообновление каждые 6 часов
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+
+# 🚀 НОВЫЕ СЕРВЕРА
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@no.fatsarvers.pro:8443?security=tls&type=grpc&serviceName=grpc&sni=no.fatsarvers.pro&fp=chrome&alpn=h2&encryption=none#🇳🇴 Norway - gRPC+TLS
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:8443?security=tls&type=grpc&serviceName=grpc&sni=fat-sp.arpozan.cloud&fp=chrome&alpn=h2&encryption=none#🇪🇸 Spain - gRPC+TLS
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:18443?security=reality&type=xhttp&mode=packet-up&host=max.ru&path=/&sni=max.ru&fp=qq&pbk=GPdxLu9G0BmcVKGBZC8lNISlc5WF1hBWs81rwFx7ZHo&sid=0ab2b62d2c0005f5&encryption=none#🇪🇸 Spain - XHTTP+Reality
 
 # 🇪🇺 ЕВРОПА (VLESS + gRPC)
 
@@ -24,115 +32,14 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&t
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@45.130.254.49:8443?security=none&type=grpc&serviceName=grpc#🇦🇲 Armenia
 
-# 🚀 HYSTERIA2 (UDP, ДЛЯ ЗВОНКОВ И ПЛОХОГО ИНТЕРНЕТА)
-{
-  "dns": {
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ],
-    "queryStrategy": "UseIP"
-  },
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "direct"
-      }
-    ],
-    "domainMatcher": "hybrid",
-    "domainStrategy": "IPIfNonMatch"
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "protocol": "hysteria",
-      "settings": {
-        "address": "h2-fr.arpozan.cloud",
-        "port": 443,
-        "version": 2
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "7e8f7489-e65f-4be6-93ed-867a74ec6759"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "h2-fr.arpozan.cloud",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h3"
-          ]
-        },
-        "finalmask": {
-          "quicParams": {
-            "debug": false,
-            "congestion": "bbr",
-            "maxConnReceiveWindow": 20971520,
-            "initConnReceiveWindow": 20971520,
-            "maxStreamReceiveWindow": 8388608,
-            "initStreamReceiveWindow": 8388608
-          }
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "🇫🇷 France - Hysteria2"
-}
-
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 7
+📊 ВСЕГО СЕРВЕРОВ: 9
 📅 АКТУАЛЬНО ДО: 25.05.2036
+
+✨ ПРИ ПОДДЕРЖКЕ ✨
+🎵 АбоюдноFM — музыкальное сообщество
+➡️ https://t.me/oboyudnofm
+
+🤖 Наш бот: @snezkavpn_bot
+➡️ https://t.me/snezkavpn_bot
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
