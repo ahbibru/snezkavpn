@@ -9,21 +9,23 @@
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 ❄️ SNEZKA VPN | FRESH COOL ❄️
 
-✅ 8 серверов (VLESS + gRPC)
-✅ Новые: Эстония, Польша, Нидерланды (новый)
+✅ 8 VLESS + gRPC серверов
+✅ 1 Hysteria2 сервер (Франция) — для голоса и плохого интернета
 ✅ Действует до: 31.12.2026
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🚀 НОВЫЕ СЕРВЕРА
+# 🚀 HYSTERIA2 (UDP-based, для звонков и плохих сетей)
+
+hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h2-fr.arpozan.cloud:443/?insecure=1&obfs=salamander&obfs-password=7e8f7489-e65f-4be6-93ed-867a74ec6759&sni=h2-fr.arpozan.cloud#🇫🇷 France - Hysteria2
+
+# 🇪🇺 VLESS + gRPC
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@77.83.246.92:8443?security=none&type=grpc&serviceName=grpc#🇵🇱 Poland - gRPC
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
-
-# 🇪🇺 ЕВРОПА (VLESS + gRPC)
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany
 
@@ -36,7 +38,7 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&ty
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@45.130.254.49:8443?security=none&type=grpc&serviceName=grpc#🇦🇲 Armenia
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 8
+📊 ВСЕГО СЕРВЕРОВ: 9 (8 VLESS + 1 Hysteria2)
 📅 АКТУАЛЬНО ДО: 31.12.2026
 
 ✨ ПРИ ПОДДЕРЖКЕ ✨
