@@ -9,8 +9,8 @@
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 ❄️ SNEZKA VPN | FRESH COOL ❄️
 
-✅ 8 VLESS + gRPC серверов
-✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия, Армения
+✅ 9 серверов (VLESS + gRPC / XHTTP / TLS)
+✅ Европа: Эстония, Польша, Германия, Финляндия, Испания (2), Турция, Норвегия, Нидерланды
 ✅ Действует до: 31.12.2026
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
@@ -21,20 +21,26 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@77.83.246.92:8443?security=none&type=grpc&serviceName=grpc#🇵🇱 Poland - gRPC
 
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
-
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany - gRPC
-
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
-
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey - gRPC
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland - gRPC
 
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@45.130.254.49:8443?security=none&type=grpc&serviceName=grpc#🇦🇲 Armenia - gRPC
+# 🇪🇸 ИСПАНИЯ
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:8443?security=tls&type=grpc&serviceName=grpc&sni=fat-sp.arpozan.cloud&fp=chrome&alpn=h2&encryption=none#🇪🇸 Spain - gRPC+TLS
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:18443?security=reality&type=xhttp&mode=packet-up&host=max.ru&path=/&sni=max.ru&fp=qq&pbk=GPdxLu9G0BmcVKGBZC8lNISlc5WF1hBWs81rwFx7ZHo&sid=0ab2b62d2c0005f5&encryption=none#🇪🇸 Spain - XHTTP+Reality
+
+# 🇪🇺 ОСТАЛЬНАЯ ЕВРОПА
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey - gRPC
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
+
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 8
+📊 ВСЕГО СЕРВЕРОВ: 9
 📅 АКТУАЛЬНО ДО: 31.12.2026
 
 ✨ ПРИ ПОДДЕРЖКЕ ✨
