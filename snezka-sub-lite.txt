@@ -9,8 +9,8 @@
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 ❄️ SNEZKA VPN | FRESH COOL ❄️
 
-✅ 10 серверов (VLESS + gRPC / XHTTP / TLS)
-✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия, Армения, Испания (2)
+✅ 9 серверов (VLESS + gRPC / XHTTP / TLS)
+✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия, Испания (2)
 ✅ Действует до: 31.12.2026
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
@@ -31,8 +31,6 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&t
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland - gRPC
 
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@45.130.254.49:8443?security=none&type=grpc&serviceName=grpc#🇦🇲 Armenia - gRPC
-
 # 🇪🇸 ИСПАНИЯ
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:8443?security=tls&type=grpc&serviceName=grpc&sni=fat-sp.arpozan.cloud&fp=chrome&alpn=h2&encryption=none#🇪🇸 Spain - gRPC+TLS
@@ -40,7 +38,7 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:8443?security=
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:18443?security=reality&type=xhttp&mode=packet-up&host=max.ru&path=/&sni=max.ru&fp=qq&pbk=GPdxLu9G0BmcVKGBZC8lNISlc5WF1hBWs81rwFx7ZHo&sid=0ab2b62d2c0005f5&encryption=none#🇪🇸 Spain - XHTTP+Reality
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 10
+📊 ВСЕГО СЕРВЕРОВ: 9
 📅 АКТУАЛЬНО ДО: 31.12.2026
 
 ✨ ПРИ ПОДДЕРЖКЕ ✨
