@@ -1,4 +1,4 @@
-#profile-title: ❄ SNEZKA VPN | Fresh Cool
+#profile-title: ❄ SNEZKA VPN | Fresh Cool + Белые списки
 #profile-web-page: https://github.com/ahbibru/snezkavpn
 #profile-update-interval: 6
 #profile-download-interval: 1
@@ -7,13 +7,17 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=1804464000
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN | FRESH COOL ❄️
+❄️ SNEZKA VPN | FRESH COOL + БЕЛЫЕ СПИСКИ ❄️
 
-✅ 9 серверов (VLESS + gRPC / XHTTP / TLS)
+✅ 9 серверов (VLESS + gRPC / TLS)
+✅ Белые списки РФ (JSON-конфиг) – скопируйте ссылку для импорта в Xray
 ✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия, Испания (2)
 ✅ Действует до: 31.12.2026
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+
+# 🇷🇺 БЕЛЫЕ СПИСКИ РФ (JSON-конфиг для Xray)
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@config.xray:443?security=tls&type=xhttp&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&fp=qq&alpn=h2#🇷🇺 Russia - White Lists (JSON)
 
 # 🇪🇺 ЕВРОПА (VLESS + gRPC)
 
@@ -34,17 +38,3 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&ty
 # 🇪🇸 ИСПАНИЯ
 
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:8443?security=tls&type=grpc&serviceName=grpc&sni=fat-sp.arpozan.cloud&fp=chrome&alpn=h2&encryption=none#🇪🇸 Spain - gRPC+TLS
-
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:18443?security=reality&type=xhttp&mode=packet-up&host=max.ru&path=/&sni=max.ru&fp=qq&pbk=GPdxLu9G0BmcVKGBZC8lNISlc5WF1hBWs81rwFx7ZHo&sid=0ab2b62d2c0005f5&encryption=none#🇪🇸 Spain - XHTTP+Reality
-
-#announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-📊 ВСЕГО СЕРВЕРОВ: 9
-📅 АКТУАЛЬНО ДО: 31.12.2026
-
-✨ ПРИ ПОДДЕРЖКЕ ✨
-🎵 АбоюдноFM — музыкальное сообщество
-➡️ https://t.me/oboyudnofm
-
-🤖 Наш бот: @snezkavpn_bot
-➡️ https://t.me/snezkavpn_bot
-●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
