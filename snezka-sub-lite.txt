@@ -21,6 +21,8 @@ vless://a645844f-8938-4566-aa89-6e6f99adc218@51.250.47.71:443?encryption=none&se
 
 vless://4b19c831-40d2-4ce1-8ceb-1eb885def35d@51.250.40.74:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=yX1E6fqEpS0oU3efsyAc0x6hXsl7w5iBTnZkbzG7JB8&sid=22730c666bd10642&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20WhiteList%20%232%20(AetrisVPN)
 
+vless://4f9b2c16-468f-4b4b-b320-752afaa124fa@5.188.115.159:8446?encryption=none&security=reality&sni=360.yandex.ru&fp=firefox&pbk=rUCHk3_64Wv_f_v46OfVNYldKu9fUqHpX937bmGeeDs&type=grpc&mode=gun&authority=&serviceName=#%F0%9F%87%B8%F0%9F%87%AA%20WhiteList%20%233%20(AetrisVPN)
+
 # 🇷🇺 Russia Cloudflare Fix #1 - XHTTP
 vless://4fd15ad2-b5a8-45c7-874e-e9637067a178@194.226.142.197:8444?type=xhttp&encryption=none&path=%2F&host=&mode=auto&x_padding_bytes=100-1000&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&security=reality&pbk=rBG_csRh7dRYhKwNSZmH8CQs2K2TJaWUN-xDiXp13lg&fp=chrome&sni=web.max.ru&sid=f9&spx=%2Fc6827513396d92b#🇷🇺 Russia Cloudflare Fix #1
 
