@@ -6,17 +6,13 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 10 серверов: 2 White list (SS) + 8 VPN (gRPC). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 9 серверов: 1 White List (XHTTP) + 8 VPN (gRPC). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и @snezkavpn_bot
 
-# 🇷🇺 Белые списки (разделитель)
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
-
-ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#%F0%9F%87%A6%F0%9F%87%BA%20White%20list%20%231%20(Aetris)
-
-ss://aes-256-gcm:KixLvKzwjekG00rm@185.196.61.82:8080#%F0%9F%87%A8%F0%9F%87%A6%20White%20list%20%232%20(Aetris)
+# 🇳🇱 White List #1 (XHTTP)
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&security=tls&sni=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&mode=packet-up&fp=qq&alpn=h2&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22300-600%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingKey%22%3A%22_token%22%2C%22xPaddingBytes%22%3A%2216-64%22%2C%22xPaddingHeader%22%3A%22X-Signature%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22DELETE%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMinPostsIntervalMs%22%3A%2250-150%22%2C%22scStreamUpServerSecs%22%3A%2260-180%22%7D#%F0%9F%87%B3%F0%9F%87%B1White%20List%20%231
 
 # 🇪🇺 VPN сервера (разделитель)
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера
 
 # 🇪🇪 Estonia - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
