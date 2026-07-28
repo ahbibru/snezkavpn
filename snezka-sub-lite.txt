@@ -1,4 +1,4 @@
-#profile-title: ❄ SNEZKA VPN | Fresh Cool + AetrisVPN WhiteList
+#profile-title: ❄ SNEZKA VPN + AetrisVPN (Full)
 #profile-web-page: https://github.com/ahbibru/snezkavpn
 #profile-update-interval: 6
 #profile-download-interval: 1
@@ -7,17 +7,16 @@
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN + AetrisVPN | WHITELIST ❄️
+❄️ SNEZKA VPN + AetrisVPN | FULL COLLECTION ❄️
 
-✅ 15 серверов (VLESS / gRPC / WebSocket / Reality)
-✅ 6 серверов AetrisVPN (WhiteList #1–#6)
-✅ 9 серверов SNEZKA (Европа)
+✅ 17 серверов (VLESS / VMess / SS)
+✅ 6 WhiteList (AetrisVPN) + 9 SNEZKA (Европа) + 2 новых (VMess+SS)
 ✅ Лимит: 1500 ГБ | Использовано: 807 ГБ
 ✅ Действует до: 31.12.2026
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🟢 AetrisVPN WhiteList серверы
+# 🟢 AetrisVPN WhiteList (старые, все VLESS)
 
 # 🇩🇪 WhiteList #1 (AetrisVPN) – WS+TLS
 vless://a645844f-8938-4566-aa89-6e6f99adc218@51.250.47.71:443?encryption=none&security=tls&sni=cloudflare.vhub.pro&alpn=http%2F1.1&fp=ios&type=ws&path=%2Fwebsocket%3Fed%3D2560#%F0%9F%87%A9%F0%9F%87%AA%20WhiteList%20%231%20(AetrisVPN)
@@ -37,7 +36,15 @@ vless://0b9bcbc1-b289-4a64-86fa-a5b731b65384@93.152.205.216:444?encryption=none&
 # 🇬🇧 WhiteList #6 (AetrisVPN) – gRPC+Reality (hh.ru)
 vless://30825d3e-675c-11f1-a103-aef63c7126b0@89.208.231.229:2053?encryption=none&security=reality&sni=hh.ru&fp=chrome&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&sid=5b9dc5fe4ad87cc2&type=grpc&mode=gun&authority=&serviceName=grpc-direct#%F0%9F%87%AC%F0%9F%87%A7%20WhiteList%20%236%20(AetrisVPN)
 
-# 🔵 SNEZKA VPN серверы (Европа)
+# 🟡 Новые серверы (только VMess и SS)
+
+# 🇪🇺 Europe (AetrisVPN) – VMess
+vmess://eyJhZGQiOiIzaC1rYXpha2hzdGFuMS4wOXZwbi5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNTY3ZjRiZTUtMTJhYi00MmUxLWI4ZDktZGI2ZmQxZmRkMzFjIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOiI4MCIsInBzIjoi8J+HqvCfh7ogQWV0cmlzVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9#%F0%9F%87%AA%F0%9F%87%BA%20Europe%20(AetrisVPN)
+
+# 🇦🇺 Australia (AetrisVPN) – SS
+ss://chacha20-ietf-poly1305:TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH@45.77.232.213:15675#%F0%9F%87%A6%F0%9F%87%BA%20Australia%20(AetrisVPN)
+
+# 🔵 SNEZKA VPN серверы (Европа, все VLESS gRPC)
 
 # 🇪🇪 Estonia - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
