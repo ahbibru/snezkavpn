@@ -1,4 +1,4 @@
-#profile-title: ❄ SNEZKA VPN + AetrisVPN (SS & VMess)
+#profile-title: ❄ SnezkaVPN❄
 #profile-web-page: https://github.com/ahbibru/snezkavpn
 #profile-update-interval: 6
 #profile-download-interval: 1
@@ -7,31 +7,23 @@
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
 #announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SNEZKA VPN + AetrisVPN | SS & VMess COLLECTION ❄️
+❄️ SnezkaVPN❄ | Белые списки + Европа ❄️
 
-✅ 14 серверов (SS / VMess / VLESS gRPC)
-✅ Новые: 5 SS + 1 VMess (AetrisVPN)
-✅ SNEZKA: 9 серверов (Европа)
+✅ 10 серверов (1 White list + 9 VPN)
+✅ Белый список: SS (Австралия)
+✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия, Испания (2)
 ✅ Лимит: 1500 ГБ | Использовано: 807 ГБ
 ✅ Действует до: 31.12.2026
 
 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
-# 🟡 Новые серверы AetrisVPN (SS + VMess)
+# 🇷🇺 Белые списки (разделитель)
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки
 
-ss://aes-256-gcm:lGqs95QkFHo2NV@38.244.132.14:5499#%F0%9F%87%A7%F0%9F%87%AC%20AetrisVPN
+ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#%F0%9F%87%A6%F0%9F%87%BA%20White%20list%20%231%20(Aetris)
 
-ss://aes-256-gcm:KixLvKzwjekG00rm@185.196.61.82:8080#%F0%9F%87%A8%F0%9F%87%A6%20AetrisVPN
-
-ss://chacha20-ietf-poly1305:bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E@104.156.233.234:27116#%F0%9F%87%A6%F0%9F%87%BA%20AetrisVPN
-
-ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#%F0%9F%87%A6%F0%9F%87%BA%20AetrisVPN
-
-ss://aes-256-gcm:KixLvKzwjekG00rm@185.196.61.82:8080#%F0%9F%87%A8%F0%9F%87%A6%20AetrisVPN
-
-vmess://eyJhZGQiOiIzaC1rYXpha2hzdGFuMS4wOXZwbi5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNTY3ZjRiZTUtMTJhYi00MmUxLWI4ZDktZGI2ZmQxZmRkMzFjIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOiI4MCIsInBzIjoi8J+HqvCfh7ogQWV0cmlzVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
-
-# 🔵 SNEZKA VPN серверы (Европа, все VLESS gRPC)
+# 🇪🇺 VPN сервера (разделитель)
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера
 
 # 🇪🇪 Estonia - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
