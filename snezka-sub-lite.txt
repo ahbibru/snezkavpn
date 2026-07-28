@@ -6,24 +6,17 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-❄️ SnezkaVPN❄ | Белые списки + Европа ❄️
-
-✅ 10 серверов (1 White list + 9 VPN)
-✅ Белый список: SS (Австралия)
-✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия, Испания (2)
-✅ Лимит: 1500 ГБ | Использовано: 807 ГБ
-✅ Действует до: 31.12.2026
-
-●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+#announce: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●\n❄️ SnezkaVPN❄ | Белые списки + Европа ❄️\n\n✅ 10 серверов (2 White list + 8 VPN)\n✅ Белые списки: SS (Австралия + Канада)\n✅ Европа: Эстония, Польша, Нидерланды, Германия, Норвегия, Турция, Финляндия\n✅ Лимит: 1500 ГБ | Использовано: 807 ГБ\n✅ Действует до: 31.12.2026\n●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
 
 # 🇷🇺 Белые списки (разделитель)
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки
 
 ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#%F0%9F%87%A6%F0%9F%87%BA%20White%20list%20%231%20(Aetris)
 
+ss://aes-256-gcm:KixLvKzwjekG00rm@185.196.61.82:8080#%F0%9F%87%A8%F0%9F%87%A6%20White%20list%20%232%20(Aetris)
+
 # 🇪🇺 VPN сервера (разделитель)
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера
 
 # 🇪🇪 Estonia - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
@@ -45,6 +38,3 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&t
 
 # 🇫🇮 Finland - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland - gRPC
-
-# 🇪🇸 Spain - gRPC+TLS
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@fat-sp.arpozan.cloud:8443?security=tls&type=grpc&serviceName=grpc&sni=fat-sp.arpozan.cloud&fp=chrome&alpn=h2&encryption=none#🇪🇸 Spain - gRPC+TLS
