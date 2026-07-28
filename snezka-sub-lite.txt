@@ -6,7 +6,7 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 10 серверов: 1 White list (XHTTP) + 9 VPN (gRPC/H2). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 11 серверов: 1 White list (XHTTP) + 10 VPN (gRPC/H2). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
@@ -24,6 +24,9 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&ty
 
 # 🇵🇱 Poland - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@77.83.246.92:8443?security=none&type=grpc&serviceName=grpc#🇵🇱 Poland - gRPC
+
+# 🇳🇱 Netherlands - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
 
 # 🇩🇪 Germany - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany - gRPC
