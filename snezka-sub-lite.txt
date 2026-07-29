@@ -17,7 +17,7 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&secur
 # White list #2 (AetrisVPN) – Польша
 vless://d200c8f0-070b-4c1c-bbf9-1d4663d379ca@152.233.43.85:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=safari&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇵🇱 White list #2 (AetrisVPN)
 
-# White list #3 (AetrisVPN) – Антарктида
+# 🇦🇶 White list #3 (AetrisVPN) – Антарктида
 vless://16785a51-045d-4939-8969-4869f469ff92@81.163.23.185:8443?encryption=none&security=reality&sni=id.pervye.ru&fp=firefox&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&type=grpc&mode=gun&authority=&serviceName=ns#🇦🇶 White list #3 (AetrisVPN)
 
 # White list #4 (AetrisVPN) – Болгария (SS)
