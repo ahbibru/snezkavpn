@@ -6,12 +6,22 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 11 серверов: 1 White list (XHTTP) + 10 VPN (gRPC/H2). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 17 серверов: 4 White list + 13 VPN (gRPC/H2/WS/Trojan). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
 
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&security=tls&sni=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&mode=packet-up&fp=qq&alpn=h2&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22300-600%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingKey%22%3A%22_token%22%2C%22xPaddingBytes%22%3A%2216-64%22%2C%22xPaddingHeader%22%3A%22X-Signature%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22DELETE%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMinPostsIntervalMs%22%3A%2250-150%22%2C%22scStreamUpServerSecs%22%3A%2260-180%22%7D#🇳🇱 White List #1
+# White list #1 (AetrisVPN) – XHTTP
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&security=tls&sni=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&mode=packet-up&fp=qq&alpn=h2&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22300-600%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingKey%22%3A%22_token%22%2C%22xPaddingBytes%22%3A%2216-64%22%2C%22xPaddingHeader%22%3A%22X-Signature%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22DELETE%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMinPostsIntervalMs%22%3A%2250-150%22%2C%22scStreamUpServerSecs%22%3A%2260-180%22%7D#🇳🇱 White list #1 (AetrisVPN)
+
+# White list #2 (AetrisVPN) – Польша
+vless://d200c8f0-070b-4c1c-bbf9-1d4663d379ca@152.233.43.85:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=safari&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇵🇱 White list #2 (AetrisVPN)
+
+# White list #3 (AetrisVPN) – Великобритания (Trojan)
+trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@77.73.131.148:10446?security=none&type=xhttp&mode=auto&host=yandex.ru&path=%2Fvideo&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇬🇧 White list #3 (AetrisVPN)
+
+# White list #4 (AetrisVPN) – Франция
+vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=firefox&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #4 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
@@ -34,13 +44,20 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&typ
 # 🇫🇷 France - H2 (Hysteria2)
 hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h2-fr.arpozan.cloud:443?sni=h2-fr.arpozan.cloud&insecure=0#🇫🇷 France - H2
 
+# 🇫🇷 France (AetrisVPN) – VLESS (без шифрования)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.156.38:22222?encryption=none&security=none&type=tcp&headerType=none#🇫🇷 France (AetrisVPN)
+
 # 🇳🇴 Norway - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
-
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@swe06.myxasecure.space:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=swe06.myxasecure.space&fp=firefox&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%28AetrisVPN%29
 
 # 🇺🇸 USA - H2 (Hysteria2)
 hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h3-us.arpozan.cloud:443?sni=h3-us.arpozan.cloud&insecure=0#🇺🇸 USA - H2
 
+# 🇦🇺 Australia (AetrisVPN) – SS
+ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#🇦🇺 Australia (AetrisVPN)
+
 # 🇹🇷 Turkey - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey - gRPC
+
+# 🇪🇺 Europe (AetrisVPN) – VMess
+vmess://eyJhZGQiOiIzOC4xMDcuMjM0LjU3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MvIiwicG9ydCI6IjgwIiwicHMiOiLwn4eq8J+HuiBBZXRyaXNWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=#🇪🇺 Europe (AetrisVPN)
