@@ -38,8 +38,8 @@ vless://64b6f905-94d5-4745-8f92-cafa107b7c16@94.126.204.143:443?flow=xtls-rprx-v
 # White list #9 (AetrisVPN) – Швеция
 vless://e6d54902-afe3-462f-8fac-008aae213c41@5.188.115.159:8446?encryption=none&security=reality&sni=360.yandex.ru&fp=firefox&pbk=rUCHk3_64Wv_f_v46OfVNYldKu9fUqHpX937bmGeeDs&type=grpc&mode=gun&authority=&serviceName=#🇸🇪 White list #9 (AetrisVPN)
 
-# White list #10 (AetrisVPN) – США
-vless://bc299417-b5b2-4b98-abe3-c1d9e925d167@159.195.12.98:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇺🇸 White list #10 (AetrisVPN)
+# White list #11 (AetrisVPN) – Франция
+vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=chrome&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #11 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
@@ -59,9 +59,6 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&ty
 # 🇩🇪 Germany (FatVPN) - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany (FatVPN)
 
-# 🇫🇷 France (AetrisVPN) – VLESS (без шифрования)
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.156.38:22222?encryption=none&security=none&type=tcp&headerType=none#🇫🇷 France (AetrisVPN)
-
 # 🇳🇴 Norway (FatVPN) - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway (FatVPN)
 
@@ -79,3 +76,6 @@ vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.13:10000?encryption=none
 
 # 🇸🇬 Singapore (AetrisVPN) – VLESS+WS
 vless://34ce8760-24ed-41e7-a1f5-aa6c2660a53c@104.24.152.211:8880?encryption=none&security=none&type=ws&host=quiet-frost-ac61.333-07d.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#🇸🇬 Singapore (AetrisVPN)
+
+# 🇯🇵 Japan (AetrisVPN) – VLESS+WS
+vless://cc9082e4-9c7c-4cef-a0f5-963363bed638@weathered-mode-8f39.83-33c.workers.dev:8880?encryption=none&security=none&type=ws&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net#🇯🇵 Japan (AetrisVPN)
