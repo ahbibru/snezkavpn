@@ -17,10 +17,8 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&secur
 # White list #2 (AetrisVPN) – Польша
 vless://d200c8f0-070b-4c1c-bbf9-1d4663d379ca@152.233.43.85:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=safari&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇵🇱 White list #2 (AetrisVPN)
 
-# White list #3 (AetrisVPN) – Великобритания (Trojan)
-trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@77.73.131.148:10446?security=none&type=xhttp&mode=auto&host=yandex.ru&path=%2Fvideo&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇬🇧 White list #3 (AetrisVPN)
 
-# White list #4 (AetrisVPN) – Франция
+# White list #3 (AetrisVPN) – Франция
 vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=firefox&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #4 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
