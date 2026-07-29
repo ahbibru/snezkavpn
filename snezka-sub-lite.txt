@@ -11,8 +11,8 @@
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
 
-# White list #1 (AetrisVPN) – XHTTP
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&security=tls&sni=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&mode=packet-up&fp=qq&alpn=h2&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22300-600%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingKey%22%3A%22_token%22%2C%22xPaddingBytes%22%3A%2216-64%22%2C%22xPaddingHeader%22%3A%22X-Signature%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22DELETE%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMinPostsIntervalMs%22%3A%2250-150%22%2C%22scStreamUpServerSecs%22%3A%2260-180%22%7D#🇳🇱 White list #1
+# White list #1 (FatVPN) – XHTTP
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&security=tls&sni=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&mode=packet-up&fp=qq&alpn=h2&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22300-600%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingKey%22%3A%22_token%22%2C%22xPaddingBytes%22%3A%2216-64%22%2C%22xPaddingHeader%22%3A%22X-Signature%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22DELETE%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMinPostsIntervalMs%22%3A%2250-150%22%2C%22scStreamUpServerSecs%22%3A%2260-180%22%7D#🇳🇱 White list #1 (FatVPN)
 
 # White list #2 (AetrisVPN) – Польша
 vless://d200c8f0-070b-4c1c-bbf9-1d4663d379ca@152.233.43.85:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=safari&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇵🇱 White list #2 (AetrisVPN)
@@ -23,8 +23,8 @@ ss://aes-256-gcm:lGqs95QkFHo2NV@38.244.132.14:5499#🇧🇬 White list #3 (Aetri
 # White list #4 (AetrisVPN) – Германия
 vless://c2074fa1-90b7-4add-a840-194a671385ea@185.229.9.176:8443?encryption=none&security=reality&sni=id.pervye.ru&fp=chrome&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&type=grpc&mode=gun&authority=&serviceName=ns#🇩🇪 White list #4 (AetrisVPN)
 
-# White list #5 (AetrisVPN) – Новая Зеландия
-vless://884d811f-577b-421e-aabb-608660b0ecfa@85.208.85.227:9879?encryption=none&security=reality&sni=dl.google.com&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&type=grpc&mode=gun&authority=&serviceName=grpc-tunnel#🇳🇿 White list #5 (AetrisVPN)
+# White list #5 (AetrisVPN) – Италия
+vless://884d811f-577b-421e-aabb-608660b0ecfa@85.208.85.227:9879?encryption=none&security=reality&sni=dl.google.com&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&type=grpc&mode=gun&authority=&serviceName=grpc-tunnel#🇮🇹 White list #5 (AetrisVPN)
 
 # White list #6 (AetrisVPN) – Европа
 vless://10eabb0e-25cc-4210-82c9-f05d964572d8@31.76.122.42:2053?encryption=none&security=reality&sni=play.overcloud.cloud&fp=chrome&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=5c766813929a1fdd&type=grpc&mode=gun&authority=&serviceName=grpc#🇪🇺 White list #6 (AetrisVPN)
@@ -44,32 +44,32 @@ vless://bc299417-b5b2-4b98-abe3-c1d9e925d167@159.195.12.98:16923?encryption=none
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
 
-# 🇪🇪 Estonia - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
+# 🇪🇪 Estonia (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia (FatVPN)
 
-# 🇫🇮 Finland - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland - gRPC
+# 🇫🇮 Finland (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.250.126:8443?security=none&type=grpc&serviceName=grpc#🇫🇮 Finland (FatVPN)
 
-# 🇵🇱 Poland - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@77.83.246.92:8443?security=none&type=grpc&serviceName=grpc#🇵🇱 Poland - gRPC
+# 🇵🇱 Poland (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@77.83.246.92:8443?security=none&type=grpc&serviceName=grpc#🇵🇱 Poland (FatVPN)
 
-# 🇳🇱 Netherlands - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands - gRPC
+# 🇳🇱 Netherlands (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&type=grpc&serviceName=grpc#🇳🇱 Netherlands (FatVPN)
 
-# 🇩🇪 Germany - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany - gRPC
+# 🇩🇪 Germany (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany (FatVPN)
 
 # 🇫🇷 France (AetrisVPN) – VLESS (без шифрования)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.156.38:22222?encryption=none&security=none&type=tcp&headerType=none#🇫🇷 France (AetrisVPN)
 
-# 🇳🇴 Norway - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
+# 🇳🇴 Norway (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway (FatVPN)
 
 # 🇦🇺 Australia (AetrisVPN) – SS
 ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#🇦🇺 Australia (AetrisVPN)
 
-# 🇹🇷 Turkey - gRPC
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey - gRPC
+# 🇹🇷 Turkey (FatVPN) - gRPC
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&type=grpc&serviceName=grpc#🇹🇷 Turkey (FatVPN)
 
 # 🇪🇺 Europe (AetrisVPN) – VMess
 vmess://eyJhZGQiOiIzOC4xMDcuMjM0LjU3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MvIiwicG9ydCI6IjgwIiwicHMiOiLwn4eq8J+HuiBBZXRyaXNWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=#🇪🇺 Europe (AetrisVPN)
