@@ -19,7 +19,7 @@ vless://d200c8f0-070b-4c1c-bbf9-1d4663d379ca@152.233.43.85:16923?encryption=none
 
 
 # White list #3 (AetrisVPN) – Франция
-vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=firefox&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #4 (AetrisVPN)
+vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=firefox&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #3 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
