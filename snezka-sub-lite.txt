@@ -6,7 +6,7 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 17 серверов: 6 White list + 11 VPN (gRPC/H2/WS/SS/VMess). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 15 серверов: 6 White list + 9 VPN (gRPC/WS/SS/VMess). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки
@@ -47,17 +47,11 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?security=none&ty
 # 🇩🇪 Germany - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@64.188.83.94:8443?security=none&type=grpc&serviceName=grpc#🇩🇪 Germany - gRPC
 
-# 🇫🇷 France - H2 (Hysteria2)
-hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h2-fr.arpozan.cloud:443?sni=h2-fr.arpozan.cloud&insecure=0#🇫🇷 France - H2
-
 # 🇫🇷 France (AetrisVPN) – VLESS (без шифрования)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.156.38:22222?encryption=none&security=none&type=tcp&headerType=none#🇫🇷 France (AetrisVPN)
 
 # 🇳🇴 Norway - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
-
-# 🇺🇸 USA - H2 (Hysteria2)
-hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h3-us.arpozan.cloud:443?sni=h3-us.arpozan.cloud&insecure=0#🇺🇸 USA - H2
 
 # 🇦🇺 Australia (AetrisVPN) – SS
 ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#🇦🇺 Australia (AetrisVPN)
