@@ -37,6 +37,8 @@ hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h2-fr.arpozan.cloud:443?sni=h2-
 # 🇳🇴 Norway - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@89.185.81.252:8443?security=none&type=grpc&serviceName=grpc#🇳🇴 Norway - gRPC
 
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@swe06.myxasecure.space:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=swe06.myxasecure.space&fp=firefox&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%28AetrisVPN%29
+
 # 🇺🇸 USA - H2 (Hysteria2)
 hysteria2://7e8f7489-e65f-4be6-93ed-867a74ec6759@h3-us.arpozan.cloud:443?sni=h3-us.arpozan.cloud&insecure=0#🇺🇸 USA - H2
 
