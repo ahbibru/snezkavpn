@@ -6,7 +6,7 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 20 серверов: 10 White list + 10 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 22 сервера: 11 White list + 11 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
@@ -40,6 +40,9 @@ vless://e6d54902-afe3-462f-8fac-008aae213c41@5.188.115.159:8446?encryption=none&
 
 # White list #11 (AetrisVPN) – Франция
 vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=chrome&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #11 (AetrisVPN)
+
+# White list #12 (AetrisVPN) – Швейцария
+vless://26e354ba-a3ee-45f0-bf68-422e27e12884@152.233.31.80:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇨🇭 White list #12 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
@@ -79,3 +82,6 @@ vless://34ce8760-24ed-41e7-a1f5-aa6c2660a53c@104.24.152.211:8880?encryption=none
 
 # 🇯🇵 Japan (AetrisVPN) – VLESS+WS
 vless://cc9082e4-9c7c-4cef-a0f5-963363bed638@weathered-mode-8f39.83-33c.workers.dev:8880?encryption=none&security=none&type=ws&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net#🇯🇵 Japan (AetrisVPN)
+
+# 🇹🇷 Turkey (AetrisVPN) – Reality+TCP
+vless://f75814f6-8f81-4847-b792-168c41f2dc85@45.196.201.238:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=storage.yandex.net&fp=chrome&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5&type=tcp&headerType=none#🇹🇷 Turkey (AetrisVPN)
