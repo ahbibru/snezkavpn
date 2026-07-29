@@ -6,10 +6,10 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 15 серверов: 6 White list + 9 VPN (gRPC/WS/SS/VMess). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 18 серверов: 9 White list + 9 VPN (gRPC/WS/SS/VMess). Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки
 
 # White list #1 (AetrisVPN) – XHTTP
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@81.222.127.189:443?type=xhttp&security=tls&sni=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&host=d48e1a7c-e87d-4b55-a693-b6b7382464fd.selcdn.net&path=%2Fapi%2Fv1%2Fassets&mode=packet-up&fp=qq&alpn=h2&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%220%22%2C%22maxConnections%22%3A%221%22%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22300-600%22%2C%22hMaxReusableSecs%22%3A%22900-1800%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingKey%22%3A%22_token%22%2C%22xPaddingBytes%22%3A%2216-64%22%2C%22xPaddingHeader%22%3A%22X-Signature%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22DELETE%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22query%22%2C%22scMaxEachPostBytes%22%3A%22500000-1000000%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMinPostsIntervalMs%22%3A%2250-150%22%2C%22scStreamUpServerSecs%22%3A%2260-180%22%7D#🇳🇱 White list #1 (AetrisVPN)
@@ -29,8 +29,17 @@ vless://884d811f-577b-421e-aabb-608660b0ecfa@85.208.85.227:9879?encryption=none&
 # White list #6 (AetrisVPN) – Европа
 vless://10eabb0e-25cc-4210-82c9-f05d964572d8@31.76.122.42:2053?encryption=none&security=reality&sni=play.overcloud.cloud&fp=chrome&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=5c766813929a1fdd&type=grpc&mode=gun&authority=&serviceName=grpc#🇪🇺 White list #6 (AetrisVPN)
 
+# White list #7 (AetrisVPN) – США
+vless://5c2a674b-bf9d-4461-b56d-a9c2bc299d9a@155.117.137.201:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=cdn2-07.yahoo.com&fp=firefox&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=99e78ee91698aaaa&type=tcp&headerType=none#🇺🇸 White list #7 (AetrisVPN)
+
+# White list #8 (AetrisVPN) – Нидерланды
+vless://64b6f905-94d5-4745-8f92-cafa107b7c16@94.126.204.143:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=apple.com&fp=safari&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&type=tcp&headerType=none#🇳🇱 White list #8 (AetrisVPN)
+
+# White list #9 (AetrisVPN) – Швеция
+vless://e6d54902-afe3-462f-8fac-008aae213c41@5.188.115.159:8446?encryption=none&security=reality&sni=360.yandex.ru&fp=firefox&pbk=rUCHk3_64Wv_f_v46OfVNYldKu9fUqHpX937bmGeeDs&type=grpc&mode=gun&authority=&serviceName=#🇸🇪 White list #9 (AetrisVPN)
+
 # 🇪🇺 VPN сервера (разделитель)
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера
 
 # 🇪🇪 Estonia - gRPC
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?security=none&type=grpc&serviceName=grpc#🇪🇪 Estonia - gRPC
@@ -61,3 +70,6 @@ vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?security=none&t
 
 # 🇪🇺 Europe (AetrisVPN) – VMess
 vmess://eyJhZGQiOiIzOC4xMDcuMjM0LjU3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MvIiwicG9ydCI6IjgwIiwicHMiOiLwn4eq8J+HuiBBZXRyaXNWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=#🇪🇺 Europe (AetrisVPN)
+
+# 🇹🇼 Taiwan (AetrisVPN) – VLESS
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.13:10000?encryption=none&security=none&type=tcp&headerType=none#🇹🇼 Taiwan (AetrisVPN)
