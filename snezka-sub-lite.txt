@@ -6,7 +6,7 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 22 сервера: 11 White list + 11 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 27 серверов: 14 White list + 13 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
@@ -24,7 +24,7 @@ ss://aes-256-gcm:lGqs95QkFHo2NV@38.244.132.14:5499#🇧🇬 White list #3 (Aetri
 vless://c2074fa1-90b7-4add-a840-194a671385ea@185.229.9.176:8443?encryption=none&security=reality&sni=id.pervye.ru&fp=chrome&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&type=grpc&mode=gun&authority=&serviceName=ns#🇩🇪 White list #4 (AetrisVPN)
 
 # White list #5 (AetrisVPN) – Италия
-vless://884d811f-577b-421e-aabb-608660b0ecfa@85.208.85.227:9879?encryption=none&security=reality&sni=dl.google.com&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&type=grpc&mode=gun&authority=&serviceName=grpc-tunnel#🇮🇹 White list #5 (AetrisVPN)
+vless://a8f84171-5f96-4547-b621-59758fe668c8@94.126.206.121:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=www.eni.com&fp=chrome&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&spx=%2F&type=tcp&headerType=none#🇮🇹 White list #5 (AetrisVPN)
 
 # White list #6 (AetrisVPN) – Европа
 vless://10eabb0e-25cc-4210-82c9-f05d964572d8@31.76.122.42:2053?encryption=none&security=reality&sni=play.overcloud.cloud&fp=chrome&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=5c766813929a1fdd&type=grpc&mode=gun&authority=&serviceName=grpc#🇪🇺 White list #6 (AetrisVPN)
@@ -41,8 +41,14 @@ vless://e6d54902-afe3-462f-8fac-008aae213c41@5.188.115.159:8446?encryption=none&
 # White list #11 (AetrisVPN) – Франция
 vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=chrome&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #11 (AetrisVPN)
 
-# White list #12 (AetrisVPN) – Швейцария
-vless://26e354ba-a3ee-45f0-bf68-422e27e12884@152.233.31.80:16923?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&mode=gun&authority=&serviceName=neurex#🇨🇭 White list #12 (AetrisVPN)
+# White list #12 (AetrisVPN) – Великобритания (Trojan)
+trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@89.169.32.250:10446?security=none&type=xhttp&mode=auto&host=yandex.ru&path=%2Fvideo&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇬🇧 White list #12 (AetrisVPN)
+
+# White list #13 (AetrisVPN) – Австрия
+vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@77.73.131.154:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=vindobona.org&fp=firefox&pbk=5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng&sid=08&spx=%2F&type=tcp&headerType=none#🇦🇹 White list #13 (AetrisVPN)
+
+# White list #14 (AetrisVPN) – Великобритания (Trojan)
+trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@77.73.131.148:10446?security=none&type=xhttp&mode=auto&host=yandex.ru&path=%2Fvideo&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇬🇧 White list #14 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
@@ -85,3 +91,12 @@ vless://cc9082e4-9c7c-4cef-a0f5-963363bed638@weathered-mode-8f39.83-33c.workers.
 
 # 🇹🇷 Turkey (AetrisVPN) – Reality+TCP
 vless://f75814f6-8f81-4847-b792-168c41f2dc85@45.196.201.238:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=storage.yandex.net&fp=chrome&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5&type=tcp&headerType=none#🇹🇷 Turkey (AetrisVPN)
+
+# 🇮🇹 Italy (AetrisVPN) – Reality+TCP
+vless://a8f84171-5f96-4547-b621-59758fe668c8@94.126.206.121:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=www.eni.com&fp=chrome&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&spx=%2F&type=tcp&headerType=none#🇮🇹 Italy (AetrisVPN)
+
+# 🇨🇦 Canada (AetrisVPN) – Trojan
+trojan://SiNAVM@198.202.211.2:443?security=tls&sni=sinavm4.soft10.ir&fp=chrome&type=xhttp&mode=stream-one&host=sinavm4.soft10.ir&path=%2Fconfig&extra=%7B%22mode%22%3A%22stream-one%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇨🇦 Canada (AetrisVPN)
+
+# 🇿🇦 South Africa (AetrisVPN) – Reality+TCP
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@31.43.191.99:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=luminous-vortex.cdn.cachefleet.com&fp=random&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&type=tcp&headerType=none#🇿🇦 South Africa (AetrisVPN)
