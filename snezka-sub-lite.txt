@@ -6,7 +6,7 @@
 
 #subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | 27 серверов: 14 White list + 13 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
+#announce: ❄️ SnezkaVPN❄ | 24 сервера: 11 White list + 13 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
 # 🇷🇺 Белые списки (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
@@ -38,17 +38,11 @@ vless://64b6f905-94d5-4745-8f92-cafa107b7c16@94.126.204.143:443?flow=xtls-rprx-v
 # White list #9 (AetrisVPN) – Швеция
 vless://e6d54902-afe3-462f-8fac-008aae213c41@5.188.115.159:8446?encryption=none&security=reality&sni=360.yandex.ru&fp=firefox&pbk=rUCHk3_64Wv_f_v46OfVNYldKu9fUqHpX937bmGeeDs&type=grpc&mode=gun&authority=&serviceName=#🇸🇪 White list #9 (AetrisVPN)
 
-# White list #11 (AetrisVPN) – Франция
-vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=chrome&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #11 (AetrisVPN)
+# White list #10 (AetrisVPN) – Франция
+vless://423caebf-ce56-4e26-a792-7a6becb17e9b@45.151.102.99:8443?encryption=none&security=reality&sni=maps.apple.com&fp=chrome&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7&type=grpc&mode=gun&authority=&serviceName=your-custom-path#🇫🇷 White list #10 (AetrisVPN)
 
-# White list #12 (AetrisVPN) – Великобритания (Trojan)
-trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@89.169.32.250:10446?security=none&type=xhttp&mode=auto&host=yandex.ru&path=%2Fvideo&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇬🇧 White list #12 (AetrisVPN)
-
-# White list #13 (AetrisVPN) – Австрия
-vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@77.73.131.154:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=vindobona.org&fp=firefox&pbk=5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng&sid=08&spx=%2F&type=tcp&headerType=none#🇦🇹 White list #13 (AetrisVPN)
-
-# White list #14 (AetrisVPN) – Великобритания (Trojan)
-trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@77.73.131.148:10446?security=none&type=xhttp&mode=auto&host=yandex.ru&path=%2Fvideo&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇬🇧 White list #14 (AetrisVPN)
+# White list #11 (AetrisVPN) – Австрия
+vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@77.73.131.154:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=vindobona.org&fp=firefox&pbk=5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng&sid=08&spx=%2F&type=tcp&headerType=none#🇦🇹 White list #11 (AetrisVPN)
 
 # 🇪🇺 VPN сервера (разделитель)
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
