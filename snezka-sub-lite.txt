@@ -4,15 +4,54 @@
 #profile-download-interval: 1
 #support-url: https://t.me/snezkavpn_bot
 
-#subscription-userinfo: upload=0; download=0; total=1610612736000; expire=1804464000
+#subscription-userinfo: upload=0; download=866543698688; total=1610612736000; expire=1804464000
 
-#announce: ❄️ SnezkaVPN❄ | Подписка временно приостановлена. Ведутся технические работы. Приносим извинения за неудобства.
+#announce: ❄️ SnezkaVPN❄ | 16 серверов: 5 White list + 11 VPN. Лимит 1500 ГБ, использовано 807 ГБ. Действует до 31.12.2026. Подробнее в подписке и https://t.me/snezkavpn_bot
 
-# 🚧 Спасибо за Использование
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🚧 Спасибо за Использование
+# 🇷🇺 Белые списки (разделитель)
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇷🇺 Белые списки⬇
 
-# ⏳ Скоро тут что то будет
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#⏳ Скоро тут что то будет
+# White list #1 (AetrisVPN) – Болгария (SS)
+ss://aes-256-gcm:lGqs95QkFHo2NV@38.244.132.14:5499#🇧🇬 White list #1 (AetrisVPN)
 
-# 🙏 Извиняемся за неудобства
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🙏 Извиняемся за неудобства
+# White list #2 (AetrisVPN) – Европа
+vless://10eabb0e-25cc-4210-82c9-f05d964572d8@31.76.122.42:2053?encryption=none&security=reality&sni=play.overcloud.cloud&fp=chrome&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=5c766813929a1fdd&type=grpc&mode=gun&authority=&serviceName=grpc#🇪🇺 White list #2 (AetrisVPN)
+
+# White list #3 (AetrisVPN) – Австрия
+vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@77.73.131.154:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=vindobona.org&fp=firefox&pbk=5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng&sid=08&spx=%2F&type=tcp&headerType=none#🇦🇹 White list #3 (AetrisVPN)
+
+# White list #4 (AetrisVPN) – Италия
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@italia.lodkirmm.ru:443?flow=xtls-rprx-vision&encryption=mlkem768x25519plus.native.0rtt.kWnW-tjj-zEEe_L1AbGe3eHKtpezdUIsqHZ8e9gJKgs&security=reality&sni=italia.lodkirmm.ru&fp=firefox&pbk=6fwpt8WW46VND7VgVV5lQSteCUgJsZbRR092VDZ2nFs&type=tcp&headerType=none#🇮🇹 White list #4 (AetrisVPN)
+
+# White list #5 (AetrisVPN) – Нидерланды
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@cdnnodabs2.vpnchinazes.ru:443?encryption=mlkem768x25519plus.random.0rtt.BfpA2QTHuTsWLpBnWnsCzkoE6HBpgAJ7dCkSAJK0LNHCsuuSfYAIW0lVMUyru3JrFTNj3zUW5fYQzijFdZGi9TaZ44itjbc1vHWxzakCx3cecsod28NL6ORZU_xSuCGkFnZpYaiCEvyYGQCLPJmrwSg0Jji4_6ARuxk9HwoXJAOy_py4-UvBoJlX4NoSg3YGNnuqUAoPjFt-RBh8-AqiS4VRwfgkYzTA07xyW-cBx-Ump6YjMPBUuGJwAwYfJ_lFYBopY8sX67dR_gZfZAlBalIA9zU4jbUCkyGgK2dQkNZD5_FuhChXqKCLTixZlhG7vnF3GogKIdAL0OFysOsi-FypQuaCEKt2Xfh6WNlSMwWiq8anJycsubi8ccoWkcQEYTUknhdBbAcB3OQ8WHA35KQr9csCj4U2UUFgjKyVJqQ0EdSNakxebPMz3TPEBBOpVmmkSuKVgFrFotDLCBgUGpypOWSpOrgcGZuPv0TE2GiN0bOEL6hoNbOsZHMOVDpdQQsWlcSXV5yUcLNZolyOUBA-Tch8bKZFFzMEI9FNCou_EkzFnEQ9HNagsmrCkAQ7NykifIGe5saslKJ9bbMfvWVRDDC8mOyZhLsU0YbCjwppFjig7TCKbHY1nGdLm-kjG-o0kZwE6_dPT3MJlMxykXsfHmgUSuFo4wgObjYdMsFKWIqV8vhhjKpXeVvEH_UqzwbCZAikNtKv63KWVPM3qNlvGBOcbNqWN7xTl2Ko-YAJdgBIQbW2qybHBMScZbtvzdLAHcl6a-CjyMW6sThqdrciCpin_qMRNZVLNzAp4fq41iu8IKtn4hZ_XIK3d2c2fRYhFhS39dcWclIDD4ZtWhiQXFsOkGp04CXHaOVm66LNaQOvtlLOkqXMqXdafmALzdaGDys-5iVyWwGm4ghinfCCPTObk5Uuz3gb8rIOXQwCtIqFAPwcp5TMUPQkCPRL5kEbzeCkszGGYeWIXmgblaSzXvsFmbNwHMMmELwz8nqkpCQ4ZLFBtqFsv9uDGFKI_cmto0WeuKp2bdOoiAGuSDcik5hIUZM3XIA6SatxfBc_ivc4jRZPUCc5Z8xLdkgFEbi5nexU9sUictuhV_yg7uCM6WANuzEHfZFSJIGt0ysnFVEl_wgrdUBpB3x9bIzNwqG4oVpctMKj9Ndl-nKtNfoEJ6BAzCiqa4JylTEBskEMxFo1MQl_zFihhYEkcLA95OMJvCJPnzGbSNgAKKWq1uzEsdtR_-G0kPJA5pt0RBmaWpS9sgdiiVAPYGORDdG34bhtgwjMANI2K-gYl_wglZt2pdh2VCI0iBdM2SdPPrin3CmDWmGUvwmlUGoDJdiGHFdDnUUcZ_s5uARlXWWnilzL_JJlt8C-ygUaMBARhWpajiuvWrXKEjUbo8GeAlxRV6kdTGhPdtuZEBxjVuRQCAlH6ltHQ6oyEZI8YvNJfxwzN9g3fcBUKORfrCoX1yVRTtNnuKavvea__nVOF0MNwGInXdtuE1II4OpYx0NlQkhTUgmfs7ie5XYmfSGjQ2q60XOCxH-A2kly6yAQGesdNDx4k8LMmstJLNyXl2K_HII&security=tls&sni=cdnnodabs2.vpnchinazes.ru&alpn=h2%2C%20http%2F1.1&fp=firefox&type=xhttp&mode=auto&host=cdnnodabs2.vpnchinazes.ru&path=%2Fxh1b3r%2F&extra=%7B%22path%22%3A%22%2Fxh1b3r%2F%22%2C%22xPaddingKey%22%3A%22_dc%22%2C%22xPaddingHeader%22%3A%22X-Cache%22%2C%22xPaddingMethod%22%3A%22tokenish%22%2C%22uplinkHTTPMethod%22%3A%22PUT%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22xPaddingPlacement%22%3A%22queryInHeader%22%7D#🇳🇱 White list #5 (AetrisVPN)
+
+# 🇪🇺 VPN сервера (разделитель)
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?encryption=none#🇪🇺 VPN сервера⬇
+
+# 🇦🇺 Australia (AetrisVPN) – SS
+ss://aes-256-gcm:Y6R9pAtvxxzmGC@103.106.231.82:5600#🇦🇺 Australia (AetrisVPN)
+
+# 🇸🇬 Singapore (AetrisVPN) – VLESS+WS
+vless://34ce8760-24ed-41e7-a1f5-aa6c2660a53c@104.24.152.211:8880?encryption=none&security=none&type=ws&host=quiet-frost-ac61.333-07d.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#🇸🇬 Singapore (AetrisVPN)
+
+# 🇨🇦 Canada (AetrisVPN) – Trojan
+trojan://SiNAVM@198.202.211.2:443?security=tls&sni=sinavm4.soft10.ir&fp=chrome&type=xhttp&mode=stream-one&host=sinavm4.soft10.ir&path=%2Fconfig&extra=%7B%22mode%22%3A%22stream-one%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D#🇨🇦 Canada (AetrisVPN)
+
+# 🇸🇪 Sweden (AetrisVPN) – Reality+TCP
+vless://635a1c4e-122b-45f5-8339-03bce6039739@82.29.43.43:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=auto.malina24.xyz&fp=qq&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd&type=tcp&headerType=none#🇸🇪 Sweden (AetrisVPN)
+
+# 🇵🇱 Poland (AetrisVPN) – Reality+TCP
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@polska.lodkirmm.ru:443?flow=xtls-rprx-vision&encryption=mlkem768x25519plus.native.0rtt.rNLOCyC8FmF4gdUhGcmyiZcXiwqOhxVhvCtnJCGdLSV_ILOxTNJrjBhmXflbdlHBQQEu6qdCMGM1zxo3QPCCh6Y1vCeMobIitgMaYEwgbMAfV5ISnNu7W2m-0XIDjUReNCrEMjWb1qOX4Qy3CDAy0bS2hUSz2mQgO6yBUkIRw9cvOgFUt_o3JQd9STAIFBItiZdfzfE68vec7jx4PmMhYxZzhPAsV4KMWcwYRYfF-8Nju8nNgtIuP9ymZEyfixWHCuJQVtKsG8NjvHwCz7hXosOAlQx5Iwq2e5IhACdfXNUwI0mULUkFqBSOxIaB8GJSRGMMhFQwU9cxozBYdRpUe6ZOF5AdaClmzLcudKjDdPRICoojA2PJGkVsPoR_5Yk7Snis_QafRbJ76fNTSSYuYZJgxSxTQiCI9agfUZiCDXFz04CBuqJkjvRN7sGpAAJm5aKPuzmvOwAFwiKxKJkvohguDSaAm2JQ4dah7zGigHsIlPa7zbo8jYIcZ4NaCxYonglmAzWx7-ybYaJYXiIFqam2BUYJSLG0dDhWhRqMboeIOJZZsmQdknc5nFsxASHExpA7pIwgUReBNPXHrMct4qsuP5l8cpqxg1ZMxocqaOhNP_ddQ0YbuYosxFcIUJcxfUJvmqtm9qUxhsRk8NRyYENZNXOW8yt-S3cqDBl0QWxTyrOCJ2m6zxG21xRqnRLHEpgzEylqi7okgvheQdJPhJVxsNhmkCRWSoOc-Hy-aoaSPiht_NZ4FGFCpCwo4DSeDWAgi5WBeSJGDuttmqZUIUd_02aZo2GNTvTJQvdaGXWBvGBjiUKyaSsx5uMH1wheX2UahzdRJ8SrVNmvrHAYyTQyK-ikNzw7qydVE7ECn4zOwlMQNfTNjcdnAnuBgJmCTSAtU-q7hJJ79koPQWY_mjDLNSOnx6LJi6inOAAXB7AYOUKUKxaRX_c3U2YTsKXE8cIELFhSFdGM20MXI5mkA_BXeNNscvVV0GVru7Kezfd5wCCtuCKI0TqXQJKZ_oINSzavw7Z5a-lzOcIOm7pxZKeXx4hzDpVkKjJTpkxMm4R9YutIlBp14YxL5JyuSfMVvFADPytqq-Ra77q4TdYCuouPPNpMoAh0D8PDexZWdumXa9KGH_ol5Os6nQKwchOTlmO9q_QmGuMGBxCidDIBktJzjkZ0C9ENTsSqpAyJxjdmalRpdmNuA2G_DTlikvAwsTo7zxcEN2W_PpxqYDEzcaO4YNBjNdmjw4kJCpwdk5ucbyBqe6lFhTJzileVPDN9_QS52iNTKoRl6YNC1vp2G9kGJJlssrYZWJmrDWYtPchqqTNkEEAcOyFLdTNTk_uNJrI04roSMuxXD0cewrtC1oylXnSejOubeJQUY4UC0wR_fcdYLDV_poqKZ2bI9nGQ8ZJTviox_BzNb2Ja62U8HhKzCwxJO9gwjgmWnHuYJfOj3BWUYtCd-OpHv1LDXSBoULVnx8uHtdBDKcm-ZsWWBmtDcdAFRtQPvOEdNaSQN8J8JpHANxRuBxlgyJswDaos-Coc0ZnSon53NvWuabHucJLivO_SLp9UFPYAVfsjWZE&security=reality&sni=polska.lodkirmm.ru&fp=firefox&pbk=6fwpt8WW46VND7VgVV5lQSteCUgJsZbRR092VDZ2nFs&type=tcp&headerType=none#🇵🇱 Poland (AetrisVPN)
+
+# 🇸🇨 Seychelles (AetrisVPN) – Reality+TCP
+vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@77.73.131.154:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=vindobona.org&fp=firefox&pbk=5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng&sid=08&spx=%2F&type=tcp&headerType=none#🇸🇨 Seychelles (AetrisVPN)
+
+# 🇨🇿 Czech Republic (AetrisVPN) – Reality+TCP
+vless://334a7b29-8289-4d92-978b-73597062c9cb@2.26.160.121:55256?encryption=none&security=reality&sni=www.amd.com&fp=chrome&pbk=fskGEVlsRytBg5WBgJtJb7NWR1LUzf9sFIz5-m1u9DY&sid=c689fb969b&spx=%2FWcODgTOjmXYZ32v&type=tcp&headerType=none#🇨🇿 Czech Republic (AetrisVPN)
+
+# 🇹🇼 Taiwan (AetrisVPN) – VLESS
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?encryption=none&security=none&type=tcp&headerType=none#🇹🇼 Taiwan (AetrisVPN)
+
+# 🇨🇦 Canada (AetrisVPN) – Reality+TCP (второй)
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@sweic.lodkirmm.ru:50170?flow=xtls-rprx-vision&encryption=mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg&security=reality&sni=sweic.lodkirmm.ru&fp=firefox&pbk=7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk&sid=dc36bfb153f31f9a&type=tcp&headerType=none#🇨🇦 Canada (AetrisVPN)
